@@ -1,0 +1,33 @@
+1. File > preferences > settings
+
+2. Search for font
+  
+  Replace font family for
+    
+    'Cascadia Code', Consolas, 'Courier New', monospace
+    
+3. Enable Font Ligatures:
+  "editor.fontLigatures": true
+
+At the end, you'll see a set of configurations like this below:
+
+{
+    "editor.formatOnSave": true,
+    "window.zoomLevel": 0,
+    "sync.gist": "17edbb896811e99789c3f9439275982f",
+    "sync.autoDownload": true,
+    "sync.forceUpload": true,
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.minimap.enabled": false,
+    "extensions.ignoreRecommendations": false,
+    "files.exclude": {
+        "**/__pycache__": true
+    },
+    "workbench.colorTheme": "Material Theme Darker High Contrast",
+    "terminal.integrated.shell.linux": "/bin/bash",
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "editor.fontFamily": "'Cascadia Code', Consolas, 'Courier New', monospace",
+    "editor.fontLigatures": true
+}
